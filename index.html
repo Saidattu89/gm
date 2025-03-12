@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM Conference Hall - Assets & Amenities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Navigation bar styles */
+        .nav-container {
+            background-color: #34495e;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        .nav-menu li {
+            display: inline-block;
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .nav-menu a {
+            color: yellow;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            background-color: #2c3e50;
+            border-radius: 3px;
+        }
+
+        /* Dropdown menu styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 3px;
+        }
+
+        .dropdown-content a {
+            color: #2c3e50;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ecf0f1;
+        }
+
+        li:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Content section styles */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>GM Conference Hall SCR</h1>
+  <h1>Assets & Amenities </h1>
+
+    <div class="nav-container">
+        <ul class="nav-menu">
+            <li><a href="#">About ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Info</a>
+                    <a href="#">Telecom Assets</a>
+                    <a href="#">Details</a>
+                </div>
+            </li>
+            <li><a href="#">User Guide ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Wi-Fi</a>
+                    <a href="#">HDMI Ports</a>
+                    <a href="#">Wireless Presentation</a>
+                </div>
+            </li>
+            <li><a href="#">Amenities ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Integrated Audio and video</a>
+                    <a href="#">VIP Lounge</a>
+                    <a href="#">Dining Hall</a>
+                    
+                </div>
+            </li>
+            <li><a href="#">FAQ ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">General Questions</a>
+                    <a href="#">Technical Support</a>
+                   
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to GM Conference Hall</h2>
+        <p>Explore our state-of-the-art facilities and services using the navigation menu above. Discover more about our amenities.</p>
+    </div>
+</body>
+</html>
